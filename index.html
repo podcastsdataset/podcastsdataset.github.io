@@ -6,22 +6,55 @@
 @font-face {font-family: "CircularSpotifyTextLight";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype');}
 </style>
 	  <style>
-h1 {
-  color: "#1ED760";
+.header {
+  color: #1ED760;
   font-family: "CircularSpotifyTextBlack";
   font-size: 300%;
 }
-p {
+.brodtext {
     color: #1ED760;
 font-family: "CircularSpotifyTextLight";
   font-size: 160%;
 }
+
+.flex-col {
+  display: column;
+  background-color: DodgerBlue;
+  
+}
+.flex-row {
+  display: flex;
+  background-color: Green;
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+    justify-content: space-between;
+
+}
+
+.flex-row > div {
+  background-color: #f1fff1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+    justify-content: space-between;
+
+}
+
+		  
 </style>
   </head>
     <body>
-    <h1 style="color:green">
+	    
+<div class="flex-col">	    
+    <div class="header">
 SPOTIFY PODCAST DATASET
-    </h1>
+	</div>
     <p>
 Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions.To facilitate such research, we present the Spotify English-Language Podcast Dataset. 
     </p>
@@ -34,8 +67,8 @@ The dataset was initially created for use in the the TREC Podcasts Track shared 
     <p>
 We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. The dataset contains about 50,000 hours of audio, and over 600 million transcribed words. The episodes span a variety of lengths, topics, styles, and qualities.    </p>
     </p>
-  
- <p>The podcast dataset contains about 100k podcasts filtered to
+	    </div>
+ <p class="brodtext">The podcast dataset contains about 100k podcasts filtered to
  contain only documents which the creator tags as being in the English
  language, as well as by a language filter applied to the
  creator-provided title and description. We expect that there will be
