@@ -21,7 +21,12 @@ The episodes represent a wide range of:
 - **Topics:** the episodes represent a wide range of topics, both coarse- and fine-grained. These include lifestyle and culture, storytelling, sports and recreation, news, health, documentary, and commentary.
 - **Formats:** podcasts are structured in a number of different ways. These include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material.
 
+# GETTING ACCESS TO THE DATASET
+
+We are happy to share the dataset for non-commercial use to any research group with an academic affiliation or with a track record of relevant research publications. Student projects are also welcome. 
+
 # CONTENTS OF THE DATASET
+
  
  Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
  
