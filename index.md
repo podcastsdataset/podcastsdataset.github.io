@@ -18,7 +18,7 @@ After approval, we will send you a data sharing agreement to sign; after signatu
 
 # CONTENTS OF THE DATASET
 
-The English-language dataset consists of just over 100,000 episodes from different podcast shows published between January 1, 2019 and March 1, 2020 on the Spotify platform which works out to about 50,000 hours of recorded speech, and over 600 million transcribed words. In 2022 we added a Portuguese section of 123,054 episodes published between September 9, 2019 and March 31, 2022, of more than 76,000 hours of recorded speech. The data set now consists of over 200,000 episodes. The episodes were randomly selected from our catalog and were constrained to be mostly speech (as opposed to music or ambient sound).
+The English-language dataset consists of 105,360 episodes from different podcast shows published between January 1, 2019 and March 1, 2020 on the Spotify platform which works out to about 50,000 hours of recorded speech, and over 600 million transcribed words. In 2022 we added a Portuguese section of 123,054 episodes published between September 9, 2019 and March 31, 2022, of more than 76,000 hours of recorded speech. The data set now consists of over 200,000 episodes. The episodes were randomly selected from our catalog and were constrained to be mostly speech (as opposed to music or ambient sound).
 
  
  Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
