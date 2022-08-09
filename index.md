@@ -1,5 +1,5 @@
 # SPOTIFY PODCAST DATASET
-    Ann Clifton, Joana Correia, Md Iftekhar Tanveer, Edgar Tanaka, Jussi Karlgren, Ben Carterette, Rosie Jones
+*Ann Clifton, Joana Correia, Md Iftekhar Tanveer, Edgar Tanaka, Jussi Karlgren, Ben Carterette, Rosie Jones*
 
 	
 Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify English-Language Podcast Dataset. This dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes.
@@ -26,24 +26,24 @@ The episodes represent a wide range of:
  Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
  
  ## Audio data
- 
--       Files in OGG format
--	Median duration of an episode ~ 31.6 minutes
--	Estimated size: ~2 TB for entire audio data set
+- Files in OGG format
+- Median duration of an episode ~ 31.6 minutes
+- Estimated size: ~2 TB for entire audio data set
 ##      Metadata
-  - Extracted basic metadata file in TSV format with fields:<em>show_uri, show_name, show_description, publisher, language, rss_link, episode_uri, episode_name, episode_description, duration</em>
+- Extracted basic metadata file in TSV format with fields:<em>show_uri, show_name, show_description, publisher, language, rss_link, episode_uri, episode_name, episode_description, duration</em>
  
- ## Episode RSS header files</div>
-   - 	~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
-     - Estimated size: 145MB total for entire RSS set when compressed.
-      ## Transcripts
+## Episode RSS header files</div>
+- ~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
+- Estimated size: 145MB total for entire RSS set when compressed.
+
+## Transcripts
 -	JSON format
- - Average length is just under 6000 words, ranging from a small number of extremely short episodes to up to 45,000 words. Two-thirds of the transcripts are between about 1,000 and about 10,000 words in length; about 1% or 1,000 episodes are very short trailers to advertise other content.
-   - Estimated size: 12GB for entire transcript set.
-     ## Audio features
+- Average length is just under 6000 words, ranging from a small number of extremely short episodes to up to 45,000 words. Two-thirds of the transcripts are between about 1,000 and about 10,000 words in length; about 1% or 1,000 episodes are very short trailers to advertise other content.
+- Estimated size: 12GB for entire transcript set.
+
+## Audio features
 -	OpenSmile audio features:	eGeMAPS low level acoustic descriptors and functionals computed for overlapping 1.01s windows (75GB) saved in HDF5 format. 
-  -	Yamnet audio events:
-   	1024-dimensional embedding vectors for overlapping 0.96s segments for the podcasts (400GB) and Yamnet event class scores (60GB), saved in HDF5 format. 
+-	Yamnet audio events:   	1024-dimensional embedding vectors for overlapping 0.96s segments for the podcasts (400GB) and Yamnet event class scores (60GB), saved in HDF5 format. 
   
   
   
@@ -179,8 +179,7 @@ Edgar Tanaka, Jussi Karlgren, Ann Clifton, Joana Correia, Sharmista Jat, Winstea
 - **TREC 2021**: 
 Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Eskevich, Gareth J. F. Jones, and Sravana Reddy. "TREC 2021 Podcasts Track Overview" *In the Thirtieth Text REtrieval Conference Proceedings (TREC 2021)*. NIST Special Publication 500-335. Ian Soboroff and Angela Ellis (editors). 2022. [https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf](https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf)
 
-- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In Proceedings from the Conference and Labs of the Evaluation Forum (CLEF), 2021.
- and more comprehensively in Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu. \"Audio-enhanced segment retrieval within the Spotify podcasts dataset.\" Technical report, University College London, 2021. [https://github.com/trecpodcasts/podcast-audio-feature-extraction](https://github.com/trecpodcasts/podcast-audio-feature-extraction)
+- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In *Proceedings from the Conference and Labs of the Evaluation Forum (CLEF)*, 2021. [https://github.com/trecpodcasts/podcast-audio-feature-extraction](https://github.com/trecpodcasts/podcast-audio-feature-extraction)
 
 - **Workshop Report on Use Cases for Human Interaction with Audio Collections**: 
 Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [https://sigir.org/wp-content/uploads/2022/07/p07.pdf](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
