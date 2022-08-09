@@ -1,18 +1,9 @@
 # SPOTIFY PODCAST DATASET
 *Ann Clifton, Joana Correia, Md Iftekhar Tanveer, Edgar Tanaka, Jussi Karlgren, Ben Carterette, Rosie Jones*
 
-	
-Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify English-Language Podcast Dataset in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. The dataset is now available for further research purposes.
+Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify English-Language Podcast Dataset in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
 
-The English-language dataset consists of 100,000 episodes from different podcast shows on Spotify.  In 2022 we added a Portuguese section of approximately equal size to the data set which now consists of over 200,000 episodes in total. 
-
-The English-language dataset was initially created  
-
-We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. 
-
-The English-language dataset contains about 50,000 hours of audio, and over 600 million transcribed words. 
-
-The podcast dataset contains about 100k podcasts filtered to contain only documents which the creator tags as being in the English language, as well as by a language filter applied to the creator-provided title and description. We expect that there will be a small amount of multilingual content that may have slipped through these filters.
+We have now released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. We have recently added a Portuguese section of approximately equal size. 
 
 The episodes span a variety of lengths, topics, styles, and qualities. Episodes were sampled from both professional and amateur podcasts ranging from material produced in a studio with dedicated equipment by trained professionals to material self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator. Audio quality, topical content, and conversational format all vary over a wide range. The episodes include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material, some familiar from other published material, some novel with new emerging conventions. 
 
@@ -26,6 +17,8 @@ After approval, we will send you a data sharing agreement to sign; after signatu
 
 
 # CONTENTS OF THE DATASET
+
+The English-language dataset consists of just over 100,000 episodes from different podcast shows published between January 1, 2019 and March 1, 2020 on the Spotify platform which works out to about 50,000 hours of recorded speech, and over 600 million transcribed words. In 2022 we added a Portuguese section of 123,054 episodes published between September 9, 2019 and March 31, 2022, of more than 76,000 hours of recorded speech. The data set now consists of over 200,000 episodes. The episodes were randomly selected from our catalog and were constrained to be mostly speech (as opposed to music or ambient sound).
 
  
  Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
@@ -145,7 +138,7 @@ Given a podcast episode with its audio and transcription, return a short snippet
 
 ## What if there are inaccuracies in the data?
 
-All RSS headers and audio are supplied by creators, and Spotify does not claim responsibility for the content therein. All transcripts are generated using automatic speech recognition, and may contain errors; Spotify makes no claim that these are accurate reproductions of the audio content.
+All RSS headers and audio are supplied by creators, and Spotify does not claim responsibility for the correctness of those data fields. All transcripts are generated using state of the art commercial automatic speech recognition and represent the audio content with a somewhat predictable level of errors. The language identification is based on creator-supplied data as well as automatic identification of language in the episode description and in spite of this we have found a number of non-English and non-Portuguese podcasts in the dataset. This level of inaccuracy in the data reflects the linguistic richness of the data and the multilingual reality of podcasts in general and are to some extent a feature, not a bug, of the dataset.  
 
 ## Who should be excited by this dataset?
 
