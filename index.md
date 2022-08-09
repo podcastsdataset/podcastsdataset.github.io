@@ -18,7 +18,11 @@ The episodes span a variety of lengths, topics, styles, and qualities. Episodes 
 
 # GETTING ACCESS TO THE DATASET
 
-We are happy to share the dataset for non-commercial use only to any research group with an academic affiliation and academic address, or with a track record of relevant research publications. Student projects are also welcome. Use [this form](https://docs.google.com/forms/d/e/1FAIpQLSca2WJ45uamUWJ-C5HxHe7a9M1FuiSQPqukTjL8o-vthbQtnA/viewform) to request the dataset: we will send you a data sharing agreement to sign, and after signature we will send you an access link for downloading the data. Approval of requests is a manual process so please allow at least two weeks to hear back from us.
+We are happy to share the dataset for non-commercial use only to any research group with an academic affiliation and academic address, or with a track record of relevant research publications. Student projects are also welcome. 
+
+Use [this form](https://docs.google.com/forms/d/e/1FAIpQLSca2WJ45uamUWJ-C5HxHe7a9M1FuiSQPqukTjL8o-vthbQtnA/viewform) to request the dataset.
+
+After approval, we will send you a data sharing agreement to sign; after signature we will send you an access link for downloading the data. Approval of requests is a manual process so please allow at least two weeks to hear back from us.
 
 
 # CONTENTS OF THE DATASET
