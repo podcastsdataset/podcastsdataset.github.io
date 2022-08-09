@@ -22,7 +22,7 @@ The English-language dataset consists of 105,360 episodes from different podcast
  
  Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
  
- ## Audio data
+## Audio data
 - Files in OGG format
 - Median duration of an episode ~ 31.6 minutes
 - Estimated size: ~2 TB for entire audio data set
