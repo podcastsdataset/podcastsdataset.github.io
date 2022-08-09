@@ -1,86 +1,15 @@
-<html>
-  <head>
-<style type="text/css" id="custom-fonts">
-	/* custom fonts */
-@font-face {font-family: "CircularSpotifyTextBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BlackItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Bold.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BoldItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Book.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BookItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-LightItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Medium.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-MediumItalic.otf') format('opentype');}
-
-@font-face {font-family: "CircularSpotifyTextLight";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype');}
-
-.header {
-  color: #1ED760;
-  font-family: "CircularSpotifyTextBlack";
-}
-.brodtext {
-    color: #1ED760;
-font-family: "CircularSpotifyTextLight";
-}
-	
-.flex-col {
-  display: column;
-  background-color: DodgerBlue;
-
-}
-.flex-row {
-  display: flex;
-  background-color: Green;
-
-}
-
-.flex-col > div {
-  background-color: #ffffff;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-    justify-content: space-between;
-
-}
-
-.flex-row > div {
-  background-color: #ffffff;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-    justify-content: space-between;
-}		 
-	
-img {
-  max-width: 100%;
-  height: auto;
-}
-</style>
-</head>
-
-<body>
-	    
-<div class="flex-col">	    
-    <div class="header">
-      SPOTIFY PODCAST DATASET
-    </div>
-    <div class="brodtext">
-      <p>
+# SPOTIFY PODCAST DATASET
 	Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions.To facilitate such research, we present the Spotify English-Language Podcast Dataset. 
-      </p>
-      <p>
 	This dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes.
-      </p>
-      <p>
-	The dataset was initially created for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
-      </p>
-      <p>
-	We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. The dataset contains about 50,000 hours of audio, and over 600 million transcribed words. The episodes span a variety of lengths, topics, styles, and qualities.
-      </p>
-    </div>
 
-    <div>
-      <img src="earphones.jpeg" style="padding: 10px 20px;width:50%;object-fit: cover;">
-      </div>
-<div class="brodtext">
- <p>The podcast dataset contains about 100k podcasts filtered to
- contain only documents which the creator tags as being in the English
- language, as well as by a language filter applied to the
- creator-provided title and description. We expect that there will be
+The dataset was initially created for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
+
+We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. The dataset contains about 50,000 hours of audio, and over 600 million transcribed words. The episodes span a variety of lengths, topics, styles, and qualities.
+
+The podcast dataset contains about 100k podcasts filtered to contain only documents which the creator tags as being in the English
+ language, as well as by a language filter applied to the creator-provided title and description. We expect that there will be
  a small amount of multilingual content that may have slipped through
- these filters.</p>
+ these filters.
 
 
 <p>Episodes were sampled from both professional and amateur podcasts including:
