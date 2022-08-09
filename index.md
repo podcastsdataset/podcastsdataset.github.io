@@ -2,24 +2,19 @@
 *Ann Clifton, Joana Correia, Md Iftekhar Tanveer, Edgar Tanaka, Jussi Karlgren, Ben Carterette, Rosie Jones*
 
 	
-Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify English-Language Podcast Dataset. This dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes.
+Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify English-Language Podcast Dataset in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. The dataset is now available for further research purposes.
 
-The dataset was initially created for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
+The English-language dataset consists of 100,000 episodes from different podcast shows on Spotify.  In 2022 we added a Portuguese section of approximately equal size to the data set which now consists of over 200,000 episodes in total. 
 
-We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. The dataset contains about 50,000 hours of audio, and over 600 million transcribed words. The episodes span a variety of lengths, topics, styles, and qualities.
+The English-language dataset was initially created  
+
+We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. 
+
+The English-language dataset contains about 50,000 hours of audio, and over 600 million transcribed words. 
 
 The podcast dataset contains about 100k podcasts filtered to contain only documents which the creator tags as being in the English language, as well as by a language filter applied to the creator-provided title and description. We expect that there will be a small amount of multilingual content that may have slipped through these filters.
 
-
-Episodes were sampled from both professional and amateur podcasts including:
-- Episodes produced in a studio with dedicated equipment by trained professionals
-- Episodes self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator.
-
-The episodes represent a wide range of:
-
-- **Audio quality:** we can expect professionally produced podcasts to have high audio quality, but there is significant variability in the amateur podcasts. We have included a basic popularity filter to remove most podcasts that are defective or noisy.
-- **Topics:** the episodes represent a wide range of topics, both coarse- and fine-grained. These include lifestyle and culture, storytelling, sports and recreation, news, health, documentary, and commentary.
-- **Formats:** podcasts are structured in a number of different ways. These include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material.
+The episodes span a variety of lengths, topics, styles, and qualities. Episodes were sampled from both professional and amateur podcasts ranging from material produced in a studio with dedicated equipment by trained professionals to material self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator. Audio quality, topical content, and conversational format all vary over a wide range. The episodes include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material, some familiar from other published material, some novel with new emerging conventions. 
 
 # GETTING ACCESS TO THE DATASET
 
