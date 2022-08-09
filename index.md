@@ -1,4 +1,6 @@
 # SPOTIFY PODCAST DATASET
+    Ann Clifton, Joana Correia, Md Iftekhar Tanveer, Edgar Tanaka, Jussi Karlgren, Ben Carterette, Rosie Jones
+
 	
 Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify English-Language Podcast Dataset. This dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes.
 
@@ -15,79 +17,38 @@ Episodes were sampled from both professional and amateur podcasts including:
 
 The episodes represent a wide range of:
 
-Audio quality: we can expect professionally produced podcasts to have high audio quality, but there is significant variability in the amateur podcasts. We have included a basic popularity filter to remove most podcasts that are defective or noisy.
-Topics: the episodes represent a wide range of topics, both coarse- and fine-grained. These include lifestyle and culture, storytelling, sports and recreation, news, health, documentary, and commentary.
-Formats: podcasts are structured in a number of different ways. These include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material.
+- **Audio quality:** we can expect professionally produced podcasts to have high audio quality, but there is significant variability in the amateur podcasts. We have included a basic popularity filter to remove most podcasts that are defective or noisy.
+- **Topics:** the episodes represent a wide range of topics, both coarse- and fine-grained. These include lifestyle and culture, storytelling, sports and recreation, news, health, documentary, and commentary.
+- **Formats:** podcasts are structured in a number of different ways. These include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material.
 
 # CONTENTS OF THE DATASET
  
- Each of the 100,000 episodes in the dataset includes an audio file, a text transcript, and some associated metadata.
- 
- Note that the data does <strong>not</strong> include listening data or other user or usage-related data.
+ Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
  
  ## Audio data
  
-       Files in OGG format
-      </p>
-      <p>
-	Median duration of an episode ~ 31.6 minutes
-      </p>
-      <p>
-	Estimated size: ~2 TB for entire audio data set
-      </p>
-    </div>
-    <div class="header">
-      Metadata
-    </div>
-    <div class="brodtext">
-      <p>
-	Extracted basic metadata file in TSV format with fields:<em>show_uri, show_name, show_description, publisher, language, rss_link, episode_uri, episode_name, episode_description, duration</em>
-      </p>
-    </div>
-    <div class="header">Episode RSS header files</div>
-    <div class="brodtext">
-      <p>
-	~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
-      </p>
-      <p>
-	Estimated size: 145MB total for entire RSS set when compressed.
-      </p>
-    </div>
-    <div class="header">
-      Transcripts
-    </div>
-    <div class="brodtext">
-      <p>
-	JSON format
-      </p>
-      <p>
-	Average length is just under 6000 words, ranging from a small number of extremely short episodes to up to 45,000 words. Two-thirds of the transcripts are between about 1,000 and about 10,000 words in length; about 1% or 1,000 episodes are very short trailers to advertise other content.
-      </p>
-      <p>
-	Estimated size: 12GB for entire transcript set.
-      </p>
-    </div>
-    <div class="header">
-      Audio features
-    </div>
-    <div class="brodtext">
-      <p>
-	OpenSmile audio features
-      </p>
-      <p>
-	eGeMAPS low level acoustic descriptors and functionals computed for overlapping 1.01s windows (75GB) saved in HDF5 format. 
-      </p>
-      <p>
-	Yamnet audioevents
-      </p>
-      <p>
-	1024-dimensional embedding vectors for overlapping 0.96s segments for the podcasts (400GB) and Yamnet event class scores (60GB), saved in HDF5 format. 
-      </p>
-    </div>
-<!-- ","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 12:26:54","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"element":"custom-block-3033944218","name":"Text","block_type":"content","gid":515545935,"superType":"","SplashFeed":{"id":"3033944218","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p><strong>Example of Transcript:</strong>
-</p>
-<p>
-<br>
+-       Files in OGG format
+-	Median duration of an episode ~ 31.6 minutes
+-	Estimated size: ~2 TB for entire audio data set
+##      Metadata
+  - Extracted basic metadata file in TSV format with fields:<em>show_uri, show_name, show_description, publisher, language, rss_link, episode_uri, episode_name, episode_description, duration</em>
+ 
+ ## Episode RSS header files</div>
+   - 	~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
+     - Estimated size: 145MB total for entire RSS set when compressed.
+      ## Transcripts
+-	JSON format
+ - Average length is just under 6000 words, ranging from a small number of extremely short episodes to up to 45,000 words. Two-thirds of the transcripts are between about 1,000 and about 10,000 words in length; about 1% or 1,000 episodes are very short trailers to advertise other content.
+   - Estimated size: 12GB for entire transcript set.
+     ## Audio features
+-	OpenSmile audio features:	eGeMAPS low level acoustic descriptors and functionals computed for overlapping 1.01s windows (75GB) saved in HDF5 format. 
+  -	Yamnet audio events:
+   	1024-dimensional embedding vectors for overlapping 0.96s segments for the podcasts (400GB) and Yamnet event class scores (60GB), saved in HDF5 format. 
+  
+  
+  
+<!-- Example of Transcript:
+
 The transcripts consist of a JSON structure. The below figure demonstrates the \"results\" structure which begins with a list of transcriptions of 30 second chunks of speech, each such chunk with a confidence score and with every word annotated with \"startTime\" and \"endTime\". The last item in the \"results\" structure is a list of all words for the entire episode, again with with \"startTime\" and \"endTime\" and in addition an inferred \"speakerTag\" to distinguish episode participants. While the \"results\" structure is designed to accommodate several hypotheses through its \"alternatives\" list structure, this present transcription does not provide alternative transcription hypotheses.
 </p>
 <p>
@@ -137,31 +98,9 @@ The transcripts consist of a JSON structure. The below figure demonstrates the \
 <p><tt>{\"startTime\": \"39.900s\", \"endTime\": \"40.500s\", \"word\": \"salon.\", \"speakerTag\": 2} ] }] }]</tt>
 </p>
 <p><tt>}</tt>
-</p>
-<p>
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 12:26:54","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"element":"custom-block-3033944224","name":"Text","block_type":"content","gid":243635221,"superType":"","SplashFeed":{"id":"3033944224","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p><strong>
-<br>
-</strong>
-</p>
-<p><strong></strong>
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 12:26:54","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]}]}]}]},{"class":"container-ele element","contain":"1","dope-section":1,"name":"Date Block","gid":745258300,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"layout_block_id":"59602","group":[{"class":"container-ele element","contain":"1","name":"Content Container","gid":447195272,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Headline Container","gid":905326267,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Column One","gid":811809820,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"block_type":"headline","element":"custom-block-3033926117","inherited-theme":"","gid":606275523,"superType":"","SplashFeed":{"id":"3033926117","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"headline","body":"","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 11:58:03","parent_splash_feed_id":null,"title":"<p>Editors
-<br>
+
 -->
 
-
-<p>
-    Ann Clifton, Joana Coreia, Md Iftekhar Tanveer, Jussi Karlgren, Ben Carterette, Rosie Jones
-</p>
-
-<!--
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 11:58:03","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]}]}]}]},{"class":"container-ele element","contain":"1","dope-section":1,"name":"Date Block","gid":527383149,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"layout_block_id":"59602","group":[{"class":"container-ele element","contain":"1","name":"Content Container","gid":750152004,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Headline Container","gid":187910755,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Column One","gid":218244185,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"block_type":"headline","element":"custom-block-3033911158","inherited-theme":"","gid":73931467,"superType":"","SplashFeed":{"id":"3033911158","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"headline","body":"","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 11:28:15","parent_splash_feed_id":null,"title":"<p>FAQ
-<br>
-
-</p>
-","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]},{"name":"Column Two","gid":468807503,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"element":"custom-block-3033911157","name":"Text","block_type":"content","gid":706636771,"superType":"","SplashFeed":{"id":"3033911157","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"
--->
 
 # FAQ
 
@@ -212,6 +151,8 @@ Contact the organizers: podcasts-challenge-organizers@spotify.com
 
 When referring to the data, please cite the following papers: 
 
+## English Language Dataset
+
 Ann Clifton, Sravana Reddy, Yongze Yu, Aasish Pappu, Rezvaneh Rezapour, Hamed Bonab, Maria Eskevich, Gareth Jones, Jussi Karlgren, Ben Carterette, and Rosie Jones. 2020. "100,000 Podcasts: A Spoken English Document Corpus". In *Proceedings of the 28th International Conference on Computational Linguistics (COLING)* 
 
 https://www.aclweb.org/anthology/2020.coling-main.519/
@@ -225,61 +166,21 @@ https://www.aclweb.org/anthology/2020.coling-main.519/
 
 > Podcasts are a large and growing repository of spoken audio. As an audio format, podcasts are more varied in style and production type than broadcast news, contain more genres than typically studied in video data, and are more varied in style and format than previous corpora of conversations. When transcribed with automatic speech recognition they represent a noisy but fascinating collection of documents which can be studied through the lens of natural language processing, information retrieval, and linguistics. Paired with the audio files, they are also a resource for speech processing and the study of paralinguistic, sociolinguistic, and acoustic aspects of the domain. We introduce the Spotify Podcast Dataset, a new corpus of 100,000 podcasts. We demonstrate the complexity of the domain with a case study of two tasks: (1) passage search and (2) summarization. This is orders of magnitude larger than previous speech corpora used for search and summarization. Our results show that the size and variability of this corpus opens up new avenues for research.
 
+## Portuguese Language Dataset 
+Edgar Tanaka, Jussi Karlgren, Ann Clifton, Joana Correia, Sharmista Jat, Winstead Zhu, Md Iftekhar Tanveer, Rosie Jones. 2022.  "Cem Mil Podcasts: A Spoken Portuguese Document Corpus" (forthcoming)
+
+
+
 # Published Research on the Spotify English Language Podcast Dataset
-<br>
+**If you have published material or analyses on the the Podcast Dataset, get in touch to have it included in this bibliography!** 
 
-</p>
-","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"block_type":"content","element":"custom-block-3145856537","properties":[],"gid":898008175,"superType":"","SplashFeed":{"id":"3145856537","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>If you want your work included here, get in touch!
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":{"modified":"0"},"embed_code":null,"deleted":"0"}},{"class":"container-2col container-ele element has-columns","contain":1,"name":"Container (2 col)","options":{"matchHeight":{"desktop":{"":"children"}}},"gid":175666336,"superType":"container","group":[{"class":"container-2col container-ele element has-columns","contain":1,"name":"Container (2 col)","options":{"matchHeight":{"desktop":{"":"children"}}},"gid":939159593,"superType":"container","group":[{"name":"Column 1","contain":1,"class":"","gid":126079079,"superType":"container","group":[{"element":"custom-block-3145856543","name":"Text","block_type":"content","gid":354588863,"superType":"","SplashFeed":{"id":"3145856543","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>TREC 2020
-</p>
-<p>
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}],"type":"simple-container"},{"name":"Column 2","contain":1,"class":"","gid":623235025,"superType":"container","group":[{"element":"custom-block-3145856545","name":"Text","block_type":"content","gid":594293609,"superType":"","SplashFeed":{"id":"3145856545","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth JF Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. \"TREC 2020 Podcasts Track Overview.\" In the Twenty-Ninth Text REtrieval Conference Proceedings (TREC 2020).NIST Special Publication 1266. Ellen M. Voorhees and Angela Ellis (editors). 2021.
-</p>
-<p>
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"element":"custom-block-3145856541","name":"Text","block_type":"content","gid":780620339,"superType":"","SplashFeed":{"id":"3145856541","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>https://arxiv.org/abs/2103.15953
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"element":"custom-block-3145856542","name":"Text","block_type":"content","gid":459548625,"superType":"","SplashFeed":{"id":"3145856542","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>https://trec.nist.gov/pubs/trec29/trec2020.html
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}],"type":"simple-container"}],"type":"simple-container"},{"class":"container-2col container-ele element has-columns","contain":1,"name":"Container (2 col)","options":{"matchHeight":{"desktop":{"":"children"}}},"gid":291012331,"superType":"container","group":[{"name":"Column 1","contain":1,"class":"","gid":871574859,"superType":"container","group":[{"element":"custom-block-3145856539","name":"Text","block_type":"content","gid":142194392,"superType":"","SplashFeed":{"id":"3145856539","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>Audio Features
-<br>
+- **TREC 2020**: Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth JF Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. "TREC 2020 Podcasts Track Overview." *In the Twenty-Ninth Text REtrieval Conference Proceedings (TREC 2020)*. NIST Special Publication 1266. Ellen M. Voorhees and Angela Ellis (editors). 2021. [https://arxiv.org/abs/2103.15953](https://arxiv.org/abs/2103.15953)
 
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}],"type":"simple-container"},{"name":"Column 2","contain":1,"class":"","gid":923457559,"superType":"container","group":[{"element":"custom-block-3145856546","name":"Text","block_type":"content","gid":502011785,"superType":"","SplashFeed":{"id":"3145856546","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>
-</p>
-<p>Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In Proceedings from the Conference and Labs of the Evaluation Forum (CLEF), 2021.
-</p>
-<p>
-<br>
+- **TREC 2021**: 
+Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Eskevich, Gareth J. F. Jones, and Sravana Reddy. "TREC 2021 Podcasts Track Overview" *In the Thirtieth Text REtrieval Conference Proceedings (TREC 2021)*. NIST Special Publication 500-335. Ian Soboroff and Angela Ellis (editors). 2022. [https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf](https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf)
 
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"element":"custom-block-3145856549","name":"Text","block_type":"content","gid":200275925,"superType":"","SplashFeed":{"id":"3145856549","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu. \"Audio-enhanced segment retrieval within the Spotify podcasts dataset.\" Technical report, University College London, 2021.
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}},{"element":"custom-block-3145856547","name":"Text","block_type":"content","gid":913571778,"superType":"","SplashFeed":{"id":"3145856547","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>https://github.com/trecpodcasts/podcast-audio-feature-extraction
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}],"type":"simple-container"}],"type":"simple-container"}],"type":"simple-container"}]}]}]},{"element":"custom-block-3033911152","name":"Text","block_type":"content","gid":330106144,"superType":"","SplashFeed":{"id":"3033911152","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p>
-<br>
+- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In Proceedings from the Conference and Labs of the Evaluation Forum (CLEF), 2021.
+ and more comprehensively in Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu. \"Audio-enhanced segment retrieval within the Spotify podcasts dataset.\" Technical report, University College London, 2021. [https://github.com/trecpodcasts/podcast-audio-feature-extraction](https://github.com/trecpodcasts/podcast-audio-feature-extraction)
 
-</p>
-<p><a href=\"https://www.spotify.com/legal/\" target=\"_blank\" rel=\"noreferrer noopener\">Legal</a>           <a href=\"https://www.spotify.com/privacy/\" target=\"_blank\" rel=\"noreferrer noopener\">Privacy Center</a>         <a href=\"https://www.spotify.com/legal/privacy-policy/\" target=\"_blank\" rel=\"noreferrer noopener\">Privacy Policy</a>        <a href=\"https://www.spotify.com/legal/cookies-policy/\" target=\"_blank\" rel=\"noreferrer noopener\">Cookies</a>     
-</p>
-<p>
-<br>
-
-</p>
-<p><a href=\"https://www.spotify.com/legal/privacy-policy/#s3\" target=\"_blank\" rel=\"noreferrer noopener\">About Ads</a>    <a href=\"https://www.spotify.com/legal/California-privacy-disclosure\" target=\"_blank\" rel=\"noreferrer noopener\">Additional CA Privacy Disclosures</a>
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 11:28:15","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]}]};
-  </p>
-
--->
-
-</div>  
-
-
-
-  </body>
-</html>
- 
+- **Workshop Report on Use Cases for Human Interaction with Audio Collections**: 
+Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [https://sigir.org/wp-content/uploads/2022/07/p07.pdf](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
