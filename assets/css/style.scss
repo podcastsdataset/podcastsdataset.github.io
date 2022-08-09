@@ -3,17 +3,37 @@
 
 @import "{{ site.theme }}";
 
-@font-face {font-family: "CircularSpotifyTextBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BlackItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Bold.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BoldItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Book.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BookItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-LightItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Medium.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-MediumItalic.otf') format('opentype');}
+@font-face {
+font-family: "CircularSpotifyBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype');}
+@font-face {
+@font-face {
+font-family: "CircularSpotifyBlackItalic";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BlackItalic.otf') format('opentype');}
 
-@font-face {font-family: "CircularSpotifyTextLight";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype');}
+font-family: "CircularSpotifyLight";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype');}
+@font-face {
+font-family: "CircularSpotifyLightItalic";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-LightItalic.otf') format('opentype');}
+
+@font-face {
+font-family: "CircularSpotifyBold";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Bold.otf') format('opentype');}
+@font-face {
+font-family: "CircularSpotifyBoldItalic";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BoldItalic.otf') format('opentype');}
+@font-face {
+font-family: "CircularSpotifyBook";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Book.otf') format('opentype');}
+@font-face {
+font-family: "CircularSpotifyBookItalic";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BookItalic.otf') format('opentype');}
+
+@font-face {
+font-family: "CircularSpotifyMedium";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Medium.otf') format('opentype');}
+@font-face {
+font-family: "CircularSpotifyMediumItalic";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-MediumItalic.otf') format('opentype');}
 
 .h {
     color: #1ED760;
-font-family: "CircularSpotifyTextBlack";
+font-family: "CircularSpotifyBlack";
 }
 
 body {
     color: #1ED760;
-font-family: "CircularSpotifyTextLight";
+font-family: "CircularSpotifyLight";
 }
 
