@@ -30,7 +30,17 @@ The episodes represent a wide range of:
 - Median duration of an episode ~ 31.6 minutes
 - Estimated size: ~2 TB for entire audio data set
 ##      Metadata
-- Extracted basic metadata file in TSV format with fields:<em>show_uri, show_name, show_description, publisher, language, rss_link, episode_uri, episode_name, episode_description, duration</em>
+- Extracted basic metadata file in TSV format with fields:
+-- show_uri
+-- show_name
+-- show_description
+-- publisher
+-- language
+-- rss_link
+-- episode_uri
+-- episode_name
+-- episode_description
+-- duration
  
 ## Episode RSS header files</div>
 - ~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
@@ -38,7 +48,7 @@ The episodes represent a wide range of:
 
 ## Transcripts
 -	JSON format
-- Average length is just under 6000 words, ranging from a small number of extremely short episodes to up to 45,000 words. Two-thirds of the transcripts are between about 1,000 and about 10,000 words in length; about 1% or 1,000 episodes are very short trailers to advertise other content.
+- Average length is just under 6 000 words, ranging from a small number of extremely short episodes to up to 45 000 words. Two-thirds of the transcripts are between about 1 000 and about 10 000 words in length; about 1% or 1 000 episodes are very short trailers to advertise other content.
 - Estimated size: 12GB for entire transcript set.
 
 ## Audio features
