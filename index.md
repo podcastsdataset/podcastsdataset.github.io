@@ -198,3 +198,5 @@ Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Es
 
 - **Workshop Report on Use Cases for Human Interaction with Audio Collections**: 
 Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [https://sigir.org/wp-content/uploads/2022/07/p07.pdf](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
+
+- **Information Retrieval Challenges for Podcasts**: Rosie Jones, Hamed Zamani, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Helia Hashemi, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette. "Current challenges and future directions in podcast information access." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. 
