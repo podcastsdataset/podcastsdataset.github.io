@@ -1,49 +1,32 @@
 # SPOTIFY PODCAST DATASET
-	Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions.To facilitate such research, we present the Spotify English-Language Podcast Dataset. 
-	This dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes.
+	
+Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify English-Language Podcast Dataset. This dataset consists of 100,000 episodes from different podcast shows on Spotify. The dataset is available for research purposes.
 
 The dataset was initially created for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
 
 We are releasing this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. The dataset contains about 50,000 hours of audio, and over 600 million transcribed words. The episodes span a variety of lengths, topics, styles, and qualities.
 
-The podcast dataset contains about 100k podcasts filtered to contain only documents which the creator tags as being in the English
- language, as well as by a language filter applied to the creator-provided title and description. We expect that there will be
- a small amount of multilingual content that may have slipped through
- these filters.
+The podcast dataset contains about 100k podcasts filtered to contain only documents which the creator tags as being in the English language, as well as by a language filter applied to the creator-provided title and description. We expect that there will be a small amount of multilingual content that may have slipped through these filters.
 
 
-<p>Episodes were sampled from both professional and amateur podcasts including:
-<ul><li>
-	Episodes produced in a studio with dedicated equipment by trained professionals</li>
-<li>
-Episodes self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator.
-</li>
-	</ul>
-<div>
-	<p>
+Episodes were sampled from both professional and amateur podcasts including:
+- Episodes produced in a studio with dedicated equipment by trained professionals
+- Episodes self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator.
+
 The episodes represent a wide range of:
-</p>
 
-	<ul><li>
-Audio quality: we can expect professionally produced podcasts to have high audio quality, but there is significant variability in the amateur podcasts. We have included a basic popularity filter to remove most podcasts that are defective or noisy.<\/li><li>Topics: the episodes represent a wide range of topics, both coarse- and fine-grained. These include lifestyle and culture, storytelling, sports and recreation, news, health, documentary, and commentary.<\/li><li>Formats: podcasts are structured in a number of different ways. These include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material.
-</li></ul>
-    <p>
-</div>
+Audio quality: we can expect professionally produced podcasts to have high audio quality, but there is significant variability in the amateur podcasts. We have included a basic popularity filter to remove most podcasts that are defective or noisy.
+Topics: the episodes represent a wide range of topics, both coarse- and fine-grained. These include lifestyle and culture, storytelling, sports and recreation, news, health, documentary, and commentary.
+Formats: podcasts are structured in a number of different ways. These include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material.
 
-    <div class="header">
-      CONTENTS OF THE DATASET
-    </div>
-    <div>
-      <p>
-	Each of the 100,000 episodes in the dataset includes an audio file, a text transcript, and some associated metadata.
-      </p>
-      <p>
-	Note that the data does <strong>not</strong> include listening data or other user or usage-related data.
-      </p>
-    </div>
-    <div class="header">Audio data</div>
-    <div class="brodtext">
-      <p>
+# CONTENTS OF THE DATASET
+ 
+ Each of the 100,000 episodes in the dataset includes an audio file, a text transcript, and some associated metadata.
+ 
+ Note that the data does <strong>not</strong> include listening data or other user or usage-related data.
+ 
+ ## Audio data
+ 
        Files in OGG format
       </p>
       <p>
@@ -180,225 +163,69 @@ The transcripts consist of a JSON structure. The below figure demonstrates the \
 ","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]},{"name":"Column Two","gid":468807503,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"element":"custom-block-3033911157","name":"Text","block_type":"content","gid":706636771,"superType":"","SplashFeed":{"id":"3033911157","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"
 -->
 
-<!--
- <p><strong>Is the dataset multilingual?</strong>
-<br>
+# FAQ
 
-</p>
-<p>
-<br>
-Episodes are limited to English as the primary language, but we hope to release successive multilingual versions of the dataset in the future.
-</p>
-<p>All information included in this dataset is pulled from content that is already publicly available on Spotify\u2019s service (i.e. metadata and content of published podcast episodes)
-</p>
-<p>
-<br>
+## Is the dataset multilingual?
 
-</p>
-<p><strong>Does the dataset contain user behavior?</strong>
-</p>
-<p>
-<br>
+The data set is in English and in Portuguese, with some items that have leaked into the data set in other languages. We hope to release successive multilingual versions of the dataset in the future.
 
-</p>
-<p>The dataset does not contain any user behavior information.
-</p>
--->
+<!-- All information included in this dataset is pulled from content that is already publicly available on Spotify\u2019s service (i.e. metadata and content of published podcast episodes) -->
 
+## Does the dataset contain user data?
 
+No, the data set contains no information on searching, listening, recommendation or other data based on audience behaviour. 
 
-<!--
-<p><strong>What were the TREC Podcasts Track Tasks?</strong>
-</p>
-<p>
-<br>
+## What were the TREC Podcasts Track Tasks?
 
-</p>
-<p>We defined two tasks for participants in the TREC Podcasts Track.
-</p>
-<p>
-<br>
+We defined two tasks for participants in the TREC Podcasts Track.
 
-</p>
-<p><strong>Task 1: Ad-hoc Segment Retrieval</strong>
-</p>
-<p>
-<br>
+### Task 1: Ad-hoc Segment Retrieval
+
 Given an arbitrary keyword query, retrieve the jump-in point for relevant segments of podcast episodes. The best result would be a segment with very relevant content, which is also a good jump-in point for the user to start listening. We added some non-topical ranking criteria for the 2021 edition.
-</p>
-<p>
-<br>
 
-</p>
-<p>and
-</p>
-<p>
-</p>
-<p>
-</p>
-<p><strong>Task 2: Summarization</strong>
-</p>
-<p>
-</p>
-<p>
-</p>
-<p>Given a podcast episode with its audio and transcription, return a short snippet capturing the most important information in the content. 
-</p>
-<p>
-<br>
+### Task 2: Summarization
 
-</p>
-<p>   <span style=\"text-decoration:underline;color:#0ae889;\"><a class=\"fontColorEdited\" style=\"color:#0ae889;text-decoration:underline;\" href=\"https://trecpodcasts.github.io/\">More information about the TREC Podcasts Track</a></span>
-</p>
-<p>
-<br>
+Given a podcast episode with its audio and transcription, return a short snippet capturing the most important information in the content. 
 
-</p>
-<p>
-<br>
+[More information about the TREC Podcasts Track](https://trecpodcasts.github.io)
 
-</p>
-<p><strong>What if there are inaccuracies in the data?</strong>
-<br>
+## What if there are inaccuracies in the data?
 
-</p>
-<p>
-<br>
 All RSS headers and audio are supplied by creators, and Spotify does not claim responsibility for the content therein. All transcripts are generated using automatic speech recognition, and may contain errors; Spotify makes no claim that these are accurate reproductions of the audio content.
-</p>
-<p>
-<br>
-<strong>Who should be excited by this dataset?</strong>
-</p>
-<p>
-<br>
 
-</p>
-<p>Speech, NLP and Information Retrieval researchers who want to develop novel models on previously inaccessible streams of data. Also, any researchers interested in podcasts!
-<br>
+## Who should be excited by this dataset?
 
-</p>
-<p><strong>Who runsthe TREC shared task?</strong>
-</p>
-<p>
-<br>
+Speech, NLP and Information Retrieval researchers who want to develop novel models on previously inaccessible streams of data. Also, any researchers interested in podcasts!
 
-</p>
-<p>The competition was a collaboration between Spotify, NIST (the National Institute of Standards and Technology), CLARIN, Dublin City University, and TREC (the Text Retrieval Conference). Spotify supplies the data, the annotation standards, and the evaluation metrics. TREC supplies the infrastructure for participants to join the competition, submit their entries, and publish their system descriptions, and organizes a conference in November where participants share their results. NIST supplies the expert human annotators who will judge the participants\u2019 entries according to Spotify\u2019s annotation guidelines and metrics.
-</p>
-<p>
-<br>
-<strong>What are some helpful resources we can look at if we want to learn more?</strong>
-</p>
-<p>
-<br>
+## Who organised the TREC shared task?
+The TREC track was a collaboration between Spotify, NIST (the National Institute of Standards and Technology), CLARIN, Dublin City University, and TREC (the Text Retrieval Conference). All organising parties contributed to the task definition, the annotation standards, and the evaluation metrics. Spotify supplied the data. TREC supplied the infrastructure for participants to join the competition, submit their entries, and publish their system descriptions, and organizes a conference in November where participants share their results. NIST supplied the expert human annotators who will judge the participants' entries according to Spotify's annotation guidelines and metrics.
 
-</p>
-<p>The previous Spoken Document Retrieval task at TREC: <a class=\"custom-button\" href=\"https://pdfs.semanticscholar.org/57ee/3a15088f2db36e07e3972e5dd9598b5284af.pdf\">https://pdfs.semanticscholar.org/57ee/3a15088f2db36e07e3972e5dd9598b5284af.pdf</a>
-</p>
-<p>
-<br>
+## What are some helpful resources we can look at if we want to learn more?
 
-</p>
-<p><strong>Who can I reach out to if I have a question?
-<br>
+[The previous Spoken Document Retrieval task at TREC](https://pdfs.semanticscholar.org/57ee/3a15088f2db36e07e3972e5dd9598b5284af.pdf)
 
-<br>
-</strong>
-</p>
-<p>Contact the organizers: podcasts-challenge-organizers@spotify.com
-</p>
-<p>
-</p>
-<p>
-<br>
+## Who can I reach out to if I have a question?
 
-</p>
-<p>
-<br>
+Contact the organizers: podcasts-challenge-organizers@spotify.com
 
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-11-30 11:28:15","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]}]}]}]},{"class":"container-ele element","contain":"1","dope-section":1,"name":"Date Block","gid":698899738,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"layout_block_id":"59602","group":[{"class":"container-ele element","contain":"1","name":"Content Container","gid":215500541,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Headline Container","gid":488691327,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Column One","gid":848592469,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"block_type":"headline","element":"custom-block-3040244988","inherited-theme":"","gid":653265597,"superType":"","SplashFeed":{"id":"3040244988","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"headline","body":"","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-12-23 11:03:14","parent_splash_feed_id":null,"title":"<p>Citing the dataset
-<br>
+# Citing the dataset
 
-</p>
-","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]},{"name":"Column Two","gid":909413765,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"element":"custom-block-3040244989","name":"Text","block_type":"content","gid":640379897,"superType":"","SplashFeed":{"id":"3040244989","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"content","body":"<p><strong></strong>
-</p>
-<p>When referring to the data, please cite the following paper: 
-</p>
-<p>
-<br>
+When referring to the data, please cite the following papers: 
 
-</p>
-<p>\u201c100,000 Podcasts: A Spoken English Document Corpus\u201d by Ann Clifton, Sravana Reddy, Yongze Yu, Aasish Pappu, Rezvaneh Rezapour, Hamed Bonab, Maria Eskevich, Gareth Jones, Jussi Karlgren, Ben Carterette, and Rosie Jones, COLING 2020
-</p>
-<p>https://www.aclweb.org/anthology/2020.coling-main.519/
-</p>
-<p>
-<br>
+Ann Clifton, Sravana Reddy, Yongze Yu, Aasish Pappu, Rezvaneh Rezapour, Hamed Bonab, Maria Eskevich, Gareth Jones, Jussi Karlgren, Ben Carterette, and Rosie Jones. 2020. "100,000 Podcasts: A Spoken English Document Corpus". In *Proceedings of the 28th International Conference on Computational Linguistics (COLING)* 
 
-</p>
-<p>Bibtex:
-</p>
-<p>
-<br>
-@inproceedings{clifton-etal- 2020-100000,
-</p>
-<p>title = \"100,000 Podcasts: A Spoken {E}nglish Document Corpus\",
-</p>
-<p>author = \"Clifton, Ann and
-</p>
-<p>Reddy, Sravana and
-</p>
-<p>Yu, Yongze and
-</p>
-<p>Pappu, Aasish and
-</p>
-<p>Rezapour, Rezvaneh and
-</p>
-<p>Bonab, Hamed and
-</p>
-<p>Eskevich, Maria and
-</p>
-<p>Jones, Gareth and
-</p>
-<p>Karlgren, Jussi and
-</p>
-<p>Carterette, Ben and
-</p>
-<p>Jones, Rosie\",
-</p>
-<p>booktitle = \"Proceedings of the 28th International Conference on Computational Linguistics\",
-</p>
-<p>month = dec,
-</p>
-<p>year = \"2020\",
-</p>
-<p>address = \"Barcelona, Spain (Online)\",
-</p>
-<p>publisher = \"International Committee on Computational Linguistics\",
-</p>
-<p>url = \"https://www.aclweb.org/ anthology/2020.coling-main.519 \",
-</p>
-<p>pages = \"5903--5917\",
-</p>
-<p>abstract = \"Podcasts are a large and growing repository of spoken audio. As an audio format, podcasts are more varied in style and production type than broadcast news, contain more genres than typically studied in video data, and are more varied in style and format than previous corpora of conversations. When transcribed with automatic speech recognition they represent a noisy but fascinating collection of documents which can be studied through the lens of natural language processing, information retrieval, and linguistics. Paired with the audio files, they are also a resource for speech processing and the study of paralinguistic, sociolinguistic, and acoustic aspects of the domain. We introduce the Spotify Podcast Dataset, a new corpus of 100,000 podcasts. We demonstrate the complexity of the domain with a case study of two tasks: (1) passage search and (2) summarization. This is orders of magnitude larger than previous speech corpora used for search and summarization. Our results show that the size and variability of this corpus opens up new avenues for research.\",
-</p>
-<p>}
-</p>
-<p>
-</p>
-<p>
-</p>
-<p>
-<br>
+https://www.aclweb.org/anthology/2020.coling-main.519/
 
-</p>
-<p>
-<br>
+`@inproceedings{clifton2020100,
+  title={100,000 podcasts: A spoken {E}nglish document corpus},
+  author={Clifton, Ann and Reddy, Sravana and Yu, Yongze and Pappu, Aasish and Rezapour, Rezvaneh and Bonab, Hamed and Eskevich, Maria and Jones, Gareth and Karlgren, Jussi and Carterette, Ben and Jones, Rosie},
+  booktitle={Proceedings of the 28th International Conference on Computational Linguistics (COLING)},
+  year={2020}
+}`
 
-</p>
-","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2020-12-23 11:03:14","parent_splash_feed_id":null,"title":"","subtitle":"","image_url":"","temp_row":"0","raw_body":"0","options":[],"embed_code":null,"deleted":"0"}}]}]}]}]},{"class":"container-ele element dope-section","contain":"1","dope-section":1,"name":"Text Block #1","gid":838072651,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"name":"Block Content","contain":"1","class":"","gid":844046559,"type":"simple-container","superType":"container","options":{"matchHeight":[]},"group":[{"block_type":"headline","element":"custom-block-3145856540","inherited-theme":"false","gid":43758635,"superType":"","SplashFeed":{"id":"3145856540","event_id":"457702655","user_id":null,"foreign_event_id":null,"type":"headline","body":"","website":null,"font":null,"source":"admin","sort_order":"0","start_date":null,"start_time":null,"end_time":null,"tweet_id":"","created":"2021-10-14 09:40:05","parent_splash_feed_id":null,"title":"<p>Published Research on the Spotify English Language Podcast Dataset
+> Podcasts are a large and growing repository of spoken audio. As an audio format, podcasts are more varied in style and production type than broadcast news, contain more genres than typically studied in video data, and are more varied in style and format than previous corpora of conversations. When transcribed with automatic speech recognition they represent a noisy but fascinating collection of documents which can be studied through the lens of natural language processing, information retrieval, and linguistics. Paired with the audio files, they are also a resource for speech processing and the study of paralinguistic, sociolinguistic, and acoustic aspects of the domain. We introduce the Spotify Podcast Dataset, a new corpus of 100,000 podcasts. We demonstrate the complexity of the domain with a case study of two tasks: (1) passage search and (2) summarization. This is orders of magnitude larger than previous speech corpora used for search and summarization. Our results show that the size and variability of this corpus opens up new avenues for research.
+
+# Published Research on the Spotify English Language Podcast Dataset
 <br>
 
 </p>
