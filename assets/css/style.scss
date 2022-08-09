@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 @font-face {
-font-family: "CircularSpotifyBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype');}
-@font-face {
+	   font-family: "CircularSpotifyBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype');'}
+
 @font-face {
     font-family: "CircularSpotifyBlackItalic";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BlackItalic.otf') format('opentype');
     font-style: italic;
@@ -53,4 +53,12 @@ body {
     color: #1ED760;
 font-family: "CircularSpotifyLight";
 }
+
+
+
+
+
+
+
+
 
