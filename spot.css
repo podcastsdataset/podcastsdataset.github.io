@@ -1,0 +1,45 @@
+@font-face {font-family: "CircularSpotifyTextBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BlackItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Bold.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BoldItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Book.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-BookItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-LightItalic.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Medium.otf') format('opentype'), url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-MediumItalic.otf') format('opentype');}
+
+@font-face {font-family: "CircularSpotifyTextLight";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Light.otf') format('opentype');}
+
+.header {
+  color: #1ED760;
+  font-family: "CircularSpotifyTextBlack";
+}
+.brodtext {
+    color: #1ED760;
+font-family: "CircularSpotifyTextLight";
+}
+	
+.flex-col {
+  display: column;
+  background-color: DodgerBlue;
+
+}
+.flex-row {
+  display: flex;
+  background-color: Green;
+
+}
+
+.flex-col > div {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+    justify-content: space-between;
+
+}
+
+.flex-row > div {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+    justify-content: space-between;
+}		 
+	
+img {
+  max-width: 100%;
+  height: auto;
+}
