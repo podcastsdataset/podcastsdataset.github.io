@@ -1,5 +1,3 @@
-*Ann Clifton, Joana Correia, Md Iftekhar Tanveer, Edgar Tanaka, Jussi Karlgren, Ben Carterette, Rosie Jones*
-
 Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify English-Language Podcast Dataset in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
 
 We have now released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. We have recently added a Portuguese section of approximately equal size. 
@@ -14,13 +12,12 @@ Use [this form](https://docs.google.com/forms/d/e/1FAIpQLSca2WJ45uamUWJ-C5HxHe7a
 
 After approval, we will send you a data sharing agreement to sign; after signature we will send you an access link for downloading the data. Approval of requests is a manual process so please allow at least two weeks to hear back from us.
 
-
 # CONTENTS OF THE DATASET
 
 The English-language dataset consists of 105,360 episodes from different podcast shows published between January 1, 2019 and March 1, 2020 on the Spotify platform which works out to about 50,000 hours of recorded speech, and over 600 million transcribed words. In 2022 we added a Portuguese section of 123,054 episodes published between September 9, 2019 and March 31, 2022, of more than 76,000 hours of recorded speech. The data set now consists of over 200,000 episodes. The episodes were randomly selected from our catalog and were constrained to be mostly speech (as opposed to music or ambient sound).
 
  
- Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data or other user or usage-related data.*
+ Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data, streaming statistics, or other user or usage-related data.*
  
 ## Audio data
 - Files in OGG format
