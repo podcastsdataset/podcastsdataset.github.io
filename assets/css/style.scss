@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+.site-title {
+    color: #1ED760;
+}
+
+
 @font-face {
 	   font-family: "CircularSpotifyBlack";src: url('https://s3.amazonaws.com/s3.clients.splashthat.com/img/events/id/457/457702655/fonts/CircularSpotifyText-Black.otf') format('opentype');
 }
