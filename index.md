@@ -180,14 +180,26 @@ Edgar Tanaka, Jussi Karlgren, Ann Clifton, Joana Correia, Sharmista Jat, Winstea
 # Published Research on the Spotify English Language Podcast Dataset
 **If you have published material or analyses on the the Podcast Dataset, get in touch to have it included in this bibliography!** 
 
-- **TREC 2020**: Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth JF Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. "TREC 2020 Podcasts Track Overview." *In the Twenty-Ninth Text REtrieval Conference Proceedings (TREC 2020)*. NIST Special Publication 1266. Ellen M. Voorhees and Angela Ellis (editors). 2021. [https://arxiv.org/abs/2103.15953](https://arxiv.org/abs/2103.15953)
+## TREC Shared Tasks on Segment Retrieval and Summarisation
+
+- **TREC 2020**: Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth JF Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. "TREC 2020 Podcasts Track Overview." *In the Twenty-Ninth Text REtrieval Conference Proceedings (TREC 2020)*. NIST Special Publication 1266. Ellen M. Voorhees and Angela Ellis (editors). 2021. [https://arxiv.org/abs/2103.15953](arXiv)
 
 - **TREC 2021**: 
-Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Eskevich, Gareth J. F. Jones, and Sravana Reddy. "TREC 2021 Podcasts Track Overview" *In the Thirtieth Text REtrieval Conference Proceedings (TREC 2021)*. NIST Special Publication 500-335. Ian Soboroff and Angela Ellis (editors). 2022. [https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf](https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf)
+Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Eskevich, Gareth J. F. Jones, and Sravana Reddy. "TREC 2021 Podcasts Track Overview" *In the Thirtieth Text REtrieval Conference Proceedings (TREC 2021)*. NIST Special Publication 500-335. Ian Soboroff and Angela Ellis (editors). 2022. [https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf](NIST)
 
-- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In *Proceedings from the Conference and Labs of the Evaluation Forum (CLEF)*, 2021. [https://github.com/trecpodcasts/podcast-audio-feature-extraction](https://github.com/trecpodcasts/podcast-audio-feature-extraction)
+## Data set enrichments with additional features
+
+- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In *Proceedings from the Conference and Labs of the Evaluation Forum (CLEF)*, 2021. [https://github.com/trecpodcasts/podcast-audio-feature-extraction](Github)
+
+## Challenges specific to podcasts
 
 - **Workshop Report on Use Cases for Human Interaction with Audio Collections**: 
-Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [https://sigir.org/wp-content/uploads/2022/07/p07.pdf](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
+Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [https://sigir.org/wp-content/uploads/2022/07/p07.pdf](SIGIR Forum)
 
-- **Information Retrieval Challenges for Podcasts**: Rosie Jones, Hamed Zamani, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Helia Hashemi, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette. "Current challenges and future directions in podcast information access." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. 
+- **Information Retrieval Challenges for Podcasts**: Rosie Jones, Hamed Zamani, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Helia Hashemi, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette. "Current challenges and future directions in podcast information access." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [https://dl.acm.org/doi/pdf/10.1145/3404835.3462805](ACM DL)
+
+- **Podcast episode relevance in a search setting** Ben Carterette, Rosie Jones, Gareth F. Jones, Maria Eskevich, Sravana Reddy, Ann Clifton, Yongze Yu, Jussi Karlgren, and Ian Soboroff. "Podcast metadata and content: Episode relevance and attractiveness in ad hoc search." In Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval, pp. 2247-2251. 2021. [https://dl.acm.org/doi/pdf/10.1145/3404835.3463101](ACM DL)
+
+## Characteristics of podcasts
+
+- **How podcast language is different from that in other collections** Karlgren, Jussi. "Lexical variation in English language podcasts, editorial media, and social media." Northern European Journal of Language Technology 8, no. 1 (2022). [https://nejlt.ep.liu.se/article/download/3566/3547](NEJLT site at LiU)
