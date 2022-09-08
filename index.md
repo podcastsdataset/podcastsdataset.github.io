@@ -182,30 +182,30 @@ Edgar Tanaka, Jussi Karlgren, Ann Clifton, Joana Correia, Sharmista Jat, Winstea
 
 ## TREC Shared Tasks on Segment Retrieval and Summarisation
 
-- **TREC 2020**: Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth JF Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. "TREC 2020 Podcasts Track Overview." *In the Twenty-Ninth Text REtrieval Conference Proceedings (TREC 2020)*. NIST Special Publication 1266. Ellen M. Voorhees and Angela Ellis (editors). 2021. [https://arxiv.org/abs/2103.15953](arXiv)
+- **TREC 2020**: Rosie Jones, Ben Carterette, Ann Clifton, Maria Eskevich, Gareth JF Jones, Jussi Karlgren, Aasish Pappu, Sravana Reddy, and Yongze Yu. "TREC 2020 Podcasts Track Overview." *In the Twenty-Ninth Text REtrieval Conference Proceedings (TREC 2020)*. NIST Special Publication 1266. Ellen M. Voorhees and Angela Ellis (editors). 2021. [arXiv](https://arxiv.org/abs/2103.15953)
 
 - **TREC 2021**: 
-Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Eskevich, Gareth J. F. Jones, and Sravana Reddy. "TREC 2021 Podcasts Track Overview" *In the Thirtieth Text REtrieval Conference Proceedings (TREC 2021)*. NIST Special Publication 500-335. Ian Soboroff and Angela Ellis (editors). 2022. [https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf](NIST)
+Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Eskevich, Gareth J. F. Jones, and Sravana Reddy. "TREC 2021 Podcasts Track Overview" *In the Thirtieth Text REtrieval Conference Proceedings (TREC 2021)*. NIST Special Publication 500-335. Ian Soboroff and Angela Ellis (editors). 2022. [NIST](https://trec.nist.gov/pubs/trec30/papers/Overview-Pod.pdf)
 
 ## Data set enrichments with additional features
 
-- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In *Proceedings from the Conference and Labs of the Evaluation Forum (CLEF)*, 2021. [https://github.com/trecpodcasts/podcast-audio-feature-extraction](Github)
+- **Audio Features:** Abigail Alexander, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. \"Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments.\" In *Proceedings from the Conference and Labs of the Evaluation Forum (CLEF)*, 2021. [Github](https://github.com/trecpodcasts/podcast-audio-feature-extraction)
 
 ## Challenges specific to podcasts
 
 - **Workshop Report on Use Cases for Human Interaction with Audio Collections**: 
-Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [https://sigir.org/wp-content/uploads/2022/07/p07.pdf](SIGIR Forum)
+Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [SIGIR Forum](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
 
-- **Information Retrieval Challenges for Podcasts**: Rosie Jones, Hamed Zamani, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Helia Hashemi, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette. "Current challenges and future directions in podcast information access." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [https://dl.acm.org/doi/pdf/10.1145/3404835.3462805](ACM DL)
+- **Information Retrieval Challenges for Podcasts**: Rosie Jones, Hamed Zamani, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Helia Hashemi, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette. "Current challenges and future directions in podcast information access." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [ACM DL](https://dl.acm.org/doi/pdf/10.1145/3404835.3462805)
 
-- **Podcast episode relevance in a search setting** Ben Carterette, Rosie Jones, Gareth F. Jones, Maria Eskevich, Sravana Reddy, Ann Clifton, Yongze Yu, Jussi Karlgren, and Ian Soboroff. "Podcast metadata and content: Episode relevance and attractiveness in ad hoc search." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [https://dl.acm.org/doi/pdf/10.1145/3404835.3463101](ACM DL)
+- **Podcast episode relevance in a search setting** Ben Carterette, Rosie Jones, Gareth F. Jones, Maria Eskevich, Sravana Reddy, Ann Clifton, Yongze Yu, Jussi Karlgren, and Ian Soboroff. "Podcast metadata and content: Episode relevance and attractiveness in ad hoc search." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [ACM DL](https://dl.acm.org/doi/pdf/10.1145/3404835.3463101)
 
-- **Listener engagement** Sravana Reddy, Mariya Lazarova, Yongze Yu, and Rosie Jones. "Modeling Language Usage and Listener Engagement in Podcasts". In *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL & IJCNLP)*. 2021. [https://aclanthology.org/2021.acl-long.52/] (ACL Anthology)
+- **Listener engagement** Sravana Reddy, Mariya Lazarova, Yongze Yu, and Rosie Jones. "Modeling Language Usage and Listener Engagement in Podcasts". In *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL & IJCNLP)*. 2021. [ACL Anthology](https://aclanthology.org/2021.acl-long.52/)
 
 - **Quality of summaries** Rezvaneh Rezapour, Sravana Reddy, Rosie Jones, Ian Soboroff.
-"What Makes a Good Podcast Summary?" In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval* 2022. [https://dl.acm.org/doi/abs/10.1145/3477495.3531802](ACM DL)
+"What Makes a Good Podcast Summary?" In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval* 2022. [ACM DL](https://dl.acm.org/doi/abs/10.1145/3477495.3531802)
 ## Characteristics of podcasts
 
-- **Identifying structure in podcast episodes** Sravana Reddy, Yongze Yu, Aasish Pappu, Aswin Sivaraman, Rezvaneh Rezapour, and Rosie Jones. "Detecting Extraneous Content in Podcasts." In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL). 2021. [https://arxiv.org/pdf/2103.02585.pdf](arXiv) [https://aclanthology.org/2021.eacl-main.99/)](ACL Anthology)
+- **Identifying structure in podcast episodes** Sravana Reddy, Yongze Yu, Aasish Pappu, Aswin Sivaraman, Rezvaneh Rezapour, and Rosie Jones. "Detecting Extraneous Content in Podcasts." In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL). 2021. [ACL Anthology](https://aclanthology.org/2021.eacl-main.99/)
 
-- **How podcast language is different from that in other collections** Karlgren, Jussi. "Lexical variation in English language podcasts, editorial media, and social media." Northern European Journal of Language Technology 8, no. 1 (2022). [https://nejlt.ep.liu.se/article/download/3566/3547](NEJLT @ LiU)
+- **How podcast language is different from that in other collections** Karlgren, Jussi. "Lexical variation in English language podcasts, editorial media, and social media." Northern European Journal of Language Technology 8, no. 1 (2022). [NEJLT @ LiU](https://nejlt.ep.liu.se/article/download/3566/3547)
