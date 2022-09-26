@@ -1,12 +1,12 @@
-Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify English-Language Podcast Dataset in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality within podcasts. 
+Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify Podcast Dataset, with over 200 000 podcast episodes, more than 100 000 hours of speech and more than 1 billion transcribed words in English and Portuguese. 
 
-We have now released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. We have recently added a Portuguese section of approximately equal size. 
+The English-language dataset of about 100 000 episodes was created in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality for podcast data. In 2021 we released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. In 2022, we added a Portuguese section of approximately equal size. 
 
 The episodes span a variety of lengths, topics, styles, and qualities. Episodes were sampled from both professional and amateur podcasts ranging from material produced in a studio with dedicated equipment by trained professionals to material self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator. Audio quality, topical content, and conversational format all vary over a wide range. The episodes include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material, some familiar from other published material, some novel with new emerging conventions. 
 
 # GETTING ACCESS TO THE DATASET
 
-We are happy to share the dataset for non-commercial use only to any research group with an academic affiliation and academic address, or with a track record of relevant research publications. Student projects are also welcome. 
+We are happy to share the dataset for non-commercial use only to any research group with an academic affiliation and academic address, or with a track record of relevant research publications. Student class projects are also welcome if the results are reported publicly. 
 
 Use [this form](https://docs.google.com/forms/d/e/1FAIpQLSca2WJ45uamUWJ-C5HxHe7a9M1FuiSQPqukTjL8o-vthbQtnA/viewform) to request the dataset.
 
@@ -38,17 +38,27 @@ The English-language dataset consists of 105,360 episodes from different podcast
  
 ## Episode RSS header files</div>
 - ~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
-- Estimated size: 145MB total for entire RSS set when compressed.
 
 ## Transcripts
 -	JSON format
 - Average length is just under 6 000 words, ranging from a small number of extremely short episodes to up to 45 000 words. Two-thirds of the transcripts are between about 1 000 and about 10 000 words in length; about 1% or 1 000 episodes are very short trailers to advertise other content.
-- Estimated size: 12GB for entire transcript set.
 
 ## Audio features
--	OpenSmile audio features:	eGeMAPS low level acoustic descriptors and functionals computed for overlapping 1.01s windows (75GB) saved in HDF5 format. 
--	Yamnet audio events:   	1024-dimensional embedding vectors for overlapping 0.96s segments for the podcasts (400GB) and Yamnet event class scores (60GB), saved in HDF5 format. 
-  
+-	OpenSmile audio features:	eGeMAPS low level acoustic descriptors and functionals computed for overlapping 1.01s windows saved in HDF5 format. 
+-	Yamnet audio events:   	1024-dimensional embedding vectors for overlapping 0.96s segments for the podcasts and Yamnet event class scores, saved in HDF5 format. 
+
+## Estimated size of downloads
+
+|              | English   | Portuguese |
+|--------------|-----------|------------|
+| Metadata     | 150MB      |    26MB     |
+| Audio        | 2TB  |   2TB     |
+| Transcripts  | 13GB  | 75GB       |  
+| Audio features  |   | --       |
+| - OpenSmile  | 75GB  | --       |
+| - Yamnet vectors  | 400GB  | --       |
+| - Yamnet events  | 60GB  | --       |
+| Pyserini index  | 4 GB  | --       |
   
   
 <!-- Example of Transcript:
@@ -166,14 +176,10 @@ Ann Clifton, Sravana Reddy, Yongze Yu, Aasish Pappu, Rezvaneh Rezapour, Hamed Bo
   author={Clifton, Ann and Reddy, Sravana and Yu, Yongze and Pappu, Aasish and Rezapour, Rezvaneh and Bonab, Hamed and Eskevich, Maria and Jones, Gareth and Karlgren, Jussi and Carterette, Ben and Jones, Rosie},
   booktitle={Proceedings of the 28th International Conference on Computational Linguistics (COLING)},
   year={2020}
-}`
-
-<!--
-> Podcasts are a large and growing repository of spoken audio. As an audio format, podcasts are more varied in style and production type than broadcast news, contain more genres than typically studied in video data, and are more varied in style and format than previous corpora of conversations. When transcribed with automatic speech recognition they represent a noisy but fascinating collection of documents which can be studied through the lens of natural language processing, information retrieval, and linguistics. Paired with the audio files, they are also a resource for speech processing and the study of paralinguistic, sociolinguistic, and acoustic aspects of the domain. We introduce the Spotify Podcast Dataset, a new corpus of 100,000 podcasts. We demonstrate the complexity of the domain with a case study of two tasks: (1) passage search and (2) summarization. This is orders of magnitude larger than previous speech corpora used for search and summarization. Our results show that the size and variability of this corpus opens up new avenues for research.
--->
+}
 
 ## Portuguese Language Dataset 
-Edgar Tanaka, Jussi Karlgren, Ann Clifton, Joana Correia, Sharmista Jat, Winstead Zhu, Md Iftekhar Tanveer, Rosie Jones. 2022.  "Cem Mil Podcasts: A Spoken Portuguese Document Corpus" (forthcoming)
+Edgar Tanaka, Ann Clifton, Joana Correia, Sharmista Jat, Rosie Jones, Jussi Karlgren, Winstead Zhu. 2022.  "Cem Mil Podcasts: A Spoken Portuguese Document Corpus" (forthcoming)
 
 
 
