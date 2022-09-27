@@ -169,19 +169,25 @@ When referring to the data, please cite the following papers:
 
 Ann Clifton, Sravana Reddy, Yongze Yu, Aasish Pappu, Rezvaneh Rezapour, Hamed Bonab, Maria Eskevich, Gareth Jones, Jussi Karlgren, Ben Carterette, and Rosie Jones. 2020. "100,000 Podcasts: A Spoken English Document Corpus". In *Proceedings of the 28th International Conference on Computational Linguistics (COLING)* 
 
-[https://www.aclweb.org/anthology/2020.coling-main.519/](https://www.aclweb.org/anthology/2020.coling-main.519/)
+[ACL Anthology](https://www.aclweb.org/anthology/2020.coling-main.519/)
 
 `@inproceedings{clifton2020100,
   title={100,000 podcasts: A spoken {E}nglish document corpus},
   author={Clifton, Ann and Reddy, Sravana and Yu, Yongze and Pappu, Aasish and Rezapour, Rezvaneh and Bonab, Hamed and Eskevich, Maria and Jones, Gareth and Karlgren, Jussi and Carterette, Ben and Jones, Rosie},
   booktitle={Proceedings of the 28th International Conference on Computational Linguistics (COLING)},
   year={2020}
-}
+}`
 
 ## Portuguese Language Dataset 
-Edgar Tanaka, Ann Clifton, Joana Correia, Sharmista Jat, Rosie Jones, Jussi Karlgren, Winstead Zhu. 2022.  "Cem Mil Podcasts: A Spoken Portuguese Document Corpus" (forthcoming)
+Edgar Tanaka, Ann Clifton, Joana Correia, Sharmista Jat, Rosie Jones, Jussi Karlgren, Winstead Zhu. 2022.  "Cem Mil Podcasts: A Spoken Portuguese Document Corpus". *arXiv preprint 2209.11871*.
+[arXiv](https://arxiv.org/abs/2209.11871)
 
-
+`@article{tanaka2022cemmil,
+  title={Cem {M}il {P}odcasts: {A} spoken {P}ortuguese document corpus},
+  author={Edgar Tanaka and Ann Clifton and Joana Correia and Sharmista Jat and Rosie Jones and Jussi Karlgren and Winstead Zhu},
+  journal={arXiv preprint 2209.11871},
+  year={2022}
+}`
 
 # Published Research on the Spotify English Language Podcast Dataset
 **If you have published material or analyses on the the Podcast Dataset, get in touch to have it included in this bibliography!** 
