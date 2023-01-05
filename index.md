@@ -1,7 +1,7 @@
 Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify Podcast Dataset, with over 200 000 podcast episodes, more than 100 000 hours of speech and more than 1 billion transcribed words in English and Portuguese. 
 
-The English-language dataset of about 100 000 episodes was created in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality for podcast data. In 2021 we released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. In 2022, we added a Portuguese section of approximately equal size. 
-<img align="right" src="earphones.jpeg" width="50%">
+<img align="right" src="earphones.jpeg" width="50%"> The English-language dataset of about 100 000 episodes was created in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality for podcast data. In 2021 we released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. In 2022, we added a Portuguese section of approximately equal size. 
+
 
 The episodes span a variety of lengths, topics, styles, and qualities. Episodes were sampled from both professional and amateur podcasts ranging from material produced in a studio with dedicated equipment by trained professionals to material self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator. Audio quality, topical content, and conversational format all vary over a wide range. The episodes include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material, some familiar from other published material, some novel with new emerging conventions. 
 
@@ -19,6 +19,9 @@ The English-language dataset consists of 105,360 episodes from different podcast
 
  
  Each of the episodes in the dataset includes an audio file, a text transcript, and some associated metadata. *Note that the data does <strong>not</strong> include listening data, streaming statistics, or other user or usage-related data.*
+ 
+
+ 
  
 ## Audio data
 - Files in OGG format
