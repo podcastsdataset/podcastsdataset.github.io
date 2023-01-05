@@ -189,7 +189,7 @@ Edgar Tanaka, Ann Clifton, Joana Correia, Sharmista Jat, Rosie Jones, Jussi Karl
   year={2022}
 }`
 
-# Published Research on the Spotify English Language Podcast Dataset
+# Published Research on the Spotify Podcast Dataset
 **If you have published material or analyses on the the Podcast Dataset, get in touch to have it included in this bibliography!** 
 
 ## TREC Shared Tasks on Segment Retrieval and Summarisation
