@@ -9,7 +9,7 @@
 
 
 body {
-    color: #1ED760;
+    color: #3d3d3d;
 }
 
 
@@ -53,26 +53,43 @@ body {
 
 h1 {
 	font-family: "CircularSpotifyBlack";
-	color: #bcbcbc;
+	color: #1ed760;
 }
 h2 {
 	font-family: "CircularSpotifyBlack";
-	color: #bcbcbc;
+	color: #1ed760;
 }
 h3 {
 	font-family: "CircularSpotifyBlack";
-	color: #bcbcbc;
+	color: #1ed760;
 }
 
 p {
 	font-family: "CircularSpotifyLight";
 }
 code {
-	color: #bcbcbc;
+	color: #3d3d3d;
 	margin-left: 10px;
 	font-size: 75%;
 }
 a {
-	color: #6d6d6d;
+	color: #1ed760;
 }
+
+
+a:link {
+  color: #1ed760;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1ed760;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 
