@@ -2,6 +2,8 @@ Podcasts are a rapidly growing audio-only medium that involve new patterns of us
 
 The English-language dataset of about 100 000 episodes was created in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality for podcast data. In 2021 we released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. In 2022, we added a Portuguese section of approximately equal size. 
 
+<img align="right" src="earphones.jpeg">
+
 The episodes span a variety of lengths, topics, styles, and qualities. Episodes were sampled from both professional and amateur podcasts ranging from material produced in a studio with dedicated equipment by trained professionals to material self-published from a phone app - these vary in quality depending on professionalism and equipment of the creator. Audio quality, topical content, and conversational format all vary over a wide range. The episodes include scripted and unscripted monologues, interviews, conversations, debate, and included clips of other non-speech audio material, some familiar from other published material, some novel with new emerging conventions. 
 
 # GETTING ACCESS TO THE DATASET
@@ -36,7 +38,7 @@ The English-language dataset consists of 105,360 episodes from different podcast
 -- episode_description
 -- duration
  
-## Episode RSS header files</div>
+## Episode RSS header files
 - ~1000 words with additional fields of potential interest, not necessarily aligned for every episode: channel, title, description, author, link, copyright, language, image
 
 ## Transcripts
@@ -130,7 +132,7 @@ No, the data set contains no information on searching, listening, recommendation
 
 ## What were the TREC Podcasts Track Tasks?
 
-We defined two tasks for participants in the TREC Podcasts Track.
+We defined two tasks for participants in the 2020 and 2021 TREC Podcasts Track.
 
 ### Task 1: Ad-hoc Segment Retrieval
 
@@ -205,19 +207,19 @@ Jussi Karlgren, Rosie Jones, Ben Carterette, Ann Clifton, Edgar Tanaka, Maria Es
 
 ## Challenges specific to podcasts
 
-- **Workshop Report on Use Cases for Human Interaction with Audio Collections**: 
-Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [SIGIR Forum](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
+- **Workshop Report on Use Cases for Human Interaction with Audio Collections**: Gareth J. F. Jones, Maria Eskevich, Ben Carterette, Joana Correia, Rosie Jones, Jussi Karlgren, Ian Soboroff. "Report on the 1st Workshop on Audio Collection Human Interaction (AudioCHI 2022) at CHIIR 2022". SIGIR Forum 56:1. 2022. [SIGIR Forum](https://sigir.org/wp-content/uploads/2022/07/p07.pdf)
 
 - **Information Retrieval Challenges for Podcasts**: Rosie Jones, Hamed Zamani, Markus Schedl, Ching-Wei Chen, Sravana Reddy, Ann Clifton, Jussi Karlgren, Helia Hashemi, Aasish Pappu, Zahra Nazari, Longqi Yang, Oguz Semerci, Hugues Bouchard, and Ben Carterette. "Current challenges and future directions in podcast information access." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [ACM DL](https://dl.acm.org/doi/pdf/10.1145/3404835.3462805)
 
-- **Podcast episode relevance in a search setting** Ben Carterette, Rosie Jones, Gareth F. Jones, Maria Eskevich, Sravana Reddy, Ann Clifton, Yongze Yu, Jussi Karlgren, and Ian Soboroff. "Podcast metadata and content: Episode relevance and attractiveness in ad hoc search." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [ACM DL](https://dl.acm.org/doi/pdf/10.1145/3404835.3463101)
+- **Podcast episode relevance in a search setting**: Ben Carterette, Rosie Jones, Gareth F. Jones, Maria Eskevich, Sravana Reddy, Ann Clifton, Yongze Yu, Jussi Karlgren, and Ian Soboroff. "Podcast metadata and content: Episode relevance and attractiveness in ad hoc search." In *Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval*. 2021. [ACM DL](https://dl.acm.org/doi/pdf/10.1145/3404835.3463101)
 
-- **Listener engagement** Sravana Reddy, Mariya Lazarova, Yongze Yu, and Rosie Jones. "Modeling Language Usage and Listener Engagement in Podcasts". In *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL & IJCNLP)*. 2021. [ACL Anthology](https://aclanthology.org/2021.acl-long.52/)
+- **Listener engagement**: Sravana Reddy, Mariya Lazarova, Yongze Yu, and Rosie Jones. "Modeling Language Usage and Listener Engagement in Podcasts". In *Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL & IJCNLP)*. 2021. [ACL Anthology](https://aclanthology.org/2021.acl-long.52/)
 
-- **Quality of summaries** Rezvaneh Rezapour, Sravana Reddy, Rosie Jones, Ian Soboroff.
+- **Quality of summaries**: Rezvaneh Rezapour, Sravana Reddy, Rosie Jones, Ian Soboroff.
 "What Makes a Good Podcast Summary?" In *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval* 2022. [ACM DL](https://dl.acm.org/doi/abs/10.1145/3477495.3531802)
+
 ## Characteristics of podcasts
 
-- **Identifying structure in podcast episodes** Sravana Reddy, Yongze Yu, Aasish Pappu, Aswin Sivaraman, Rezvaneh Rezapour, and Rosie Jones. "Detecting Extraneous Content in Podcasts." In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL). 2021. [ACL Anthology](https://aclanthology.org/2021.eacl-main.99/)
+- **Identifying structure in podcast episodes**: Sravana Reddy, Yongze Yu, Aasish Pappu, Aswin Sivaraman, Rezvaneh Rezapour, and Rosie Jones. "Detecting Extraneous Content in Podcasts." In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL). 2021. [ACL Anthology](https://aclanthology.org/2021.eacl-main.99/)
 
-- **How podcast language is different from that in other collections** Karlgren, Jussi. "Lexical variation in English language podcasts, editorial media, and social media." Northern European Journal of Language Technology 8, no. 1 (2022). [NEJLT @ LiU](https://nejlt.ep.liu.se/article/download/3566/3547)
+- **How podcast language is different from that in other collections**: Karlgren, Jussi. "Lexical variation in English language podcasts, editorial media, and social media." Northern European Journal of Language Technology 8, no. 1 (2022). [NEJLT @ LiU](https://nejlt.ep.liu.se/article/download/3566/3547)
