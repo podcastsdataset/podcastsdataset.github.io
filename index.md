@@ -1,5 +1,7 @@
 Our podcast data sharing program has been a great success and has helped research groups around the world advance our understanding of podcasts. As we continue to collaborate with researchers on audio studies through the use of Spotify datasets, we’re constantly reassessing the relevance and use of these to ensure they provide the best possible insights. We are now thinking about our next steps and look forward to future collaborations!
 
+**Unfortunately,  due to shifting priorities, we no longer maintain the dataset. As of December 2023, we no longer take requests to access it.**
+
 Podcasts are an audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify Podcast Dataset, with data in English and Portuguese. 
 
 Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify Podcast Dataset, with over 200 000 podcast episodes, more than 100 000 hours of speech and more than 1 billion transcribed words in English and Portuguese. 
