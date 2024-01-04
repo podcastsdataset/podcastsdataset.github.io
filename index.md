@@ -1,4 +1,8 @@
-Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we present the Spotify Podcast Dataset, with over 200 000 podcast episodes, more than 100 000 hours of speech and more than 1 billion transcribed words in English and Portuguese. 
+Our podcast data sharing program has been a great success and has helped research groups around the world advance our understanding of podcasts. As we continue to collaborate with researchers on audio studies through the use of Spotify datasets, we’re constantly reassessing the relevance and use of these to ensure they provide the best possible insights. We are now thinking about our next steps and look forward to future collaborations!
+
+Podcasts are an audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify Podcast Dataset, with data in English and Portuguese. 
+
+Podcasts are a rapidly growing audio-only medium that involve new patterns of usage and new communicative conventions and motivate research in many new directions. To facilitate such research, we presented the Spotify Podcast Dataset, with over 200 000 podcast episodes, more than 100 000 hours of speech and more than 1 billion transcribed words in English and Portuguese. 
 
 <img align="right" src="earphones.jpeg" width="50%"> The English-language dataset of about 100 000 episodes was created in 2020 for use in the the TREC Podcasts Track shared tasks. Participants were asked to work on two tasks focusing on understanding podcast content, and enhancing the search functionality for podcast data. In 2021 we released this dataset more widely to facilitate research on podcasts through the lens of speech and audio technology, natural language processing, information retrieval, and linguistics. In 2022, we added a Portuguese section of approximately equal size. 
 
@@ -7,11 +11,8 @@ The episodes span a variety of lengths, topics, styles, and qualities. Episodes 
 
 # GETTING ACCESS TO THE DATASET
 
-We are happy to share the dataset for non-commercial use only to any research group with an academic affiliation and academic address, or with a track record of relevant research publications. Student class projects are also welcome if the results are reported publicly. 
+Unfortunately,  due to shifting priorities, we no longer maintain the dataset. As of December 2023, we no longer take requests to access it.
 
-Use [this form](https://docs.google.com/forms/d/e/1FAIpQLSca2WJ45uamUWJ-C5HxHe7a9M1FuiSQPqukTjL8o-vthbQtnA/viewform) to request the dataset.
-
-After approval, we will send you a data sharing agreement to sign; after signature we will send you an access link for downloading the data. Approval of requests is a manual process so please allow at least two weeks to hear back from us.
 
 # CONTENTS OF THE DATASET
 
